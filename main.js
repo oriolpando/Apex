@@ -7,6 +7,7 @@ function getStats(){
         url : "https://public-api.tracker.gg/apex/v1/standard/profile/5/aleoriol", 
         headers: {'TRN-Api-Key': '1a8b1451-77c6-455d-84d9-88d1eb71ccf9'},
         crossDomain: true,
+        dataType: 'application/json; charset=utf-8',
         success : function(result) { 
             console.log(result);
     
