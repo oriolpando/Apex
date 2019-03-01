@@ -13,8 +13,10 @@ function getStats(){
     
         }, 
         error : function(result) { 
-          //handle the error 
+          console.log("fail")
         } 
-      }); 
+      });
+
+    window.open("/Apex/statsPage.html?param1=aleoriol")
 }
 
