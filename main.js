@@ -1,6 +1,8 @@
 
 
 function getStats(){
+  console.log("fuck");
+  
     $.ajax({ 
         type : "GET", 
         url : "https://public-api.tracker.gg/apex/v1/standard/profile/5/aleoriol", 
