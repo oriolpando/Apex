@@ -8,9 +8,41 @@
     <link rel="stylesheet" type="text/css" media="screen" href="main.css">
     <script src="main.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 </head>
 <body>
-    <button onclick="getStats()">GO!</button>
+    <form class="form-inline">
+        <div class="form-group mb-1">
+            <input type="text" readonly class="form-control-plaintext" id="user" value="Username:">
+        </div>
+
+        <div class="form-group mx-sm-1 mb-1">
+            <input type="text" class="form-control" id="user" placeholder="">
+        </div>
+
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+            <label class="form-check-label" for="exampleRadios1">
+                Origin/PC
+            </label>
+            </div>
+            <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+            <label class="form-check-label" for="exampleRadios2">
+                Play Station Network
+            </label>
+            </div>
+            <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" >
+            <label class="form-check-label" for="exampleRadios3">
+                Disabled radio
+            </label>
+        </div>
+
+    </form>
+    <button type="button" class="btn btn-outline-danger" onclick="getStats()">Get Stats!</button>
+
+
 </body>
 </html>
