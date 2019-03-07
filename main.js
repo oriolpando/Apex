@@ -4,8 +4,8 @@ function getStats(){
   
     $.ajax({ 
         type : "GET", 
-        url : "https://www.apexlegendshut.com/free-api?platform=PC&title=Aleoriol", 
-        dataType: "json",
+        url : "https://www.apexlegendshut.com/free-api?platform=PC&title=aleoriol", 
+        dataType: "jsonp",
         success : function(result) { 
           var player = JSON.parse(result);
             console.log(player);
