@@ -1,11 +1,11 @@
 {
-    "name": "apex-search",
-    "version": "1.0.0",
-    "scripts": {
-        "start": "node server.js"
-    },
-    "dependencies": {
-        "express": "4.16.4"
-    },
-    "author": "Oriol Pando"
+  "name": "apexsearch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Oriol Pando",
+  "license": "ISC"
 }
